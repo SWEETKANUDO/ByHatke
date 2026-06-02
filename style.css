@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 60vh;
+    width: 60%;
+    border: 3px solid blue;
+    margin: 20vh auto;
+    border-radius: 50px;
+}
+
+
+
+@media (max-width:768px){
+    .box{
+        background-color: blue;
+    }
+}
+
+@media(min-width:769px) and (max-width:993px){
+    .box{
+        background-color: yellow;
+    }
+}
+
+@media(min-width:994px){
+    .box{
+        background-color: red;
+    }
+}
